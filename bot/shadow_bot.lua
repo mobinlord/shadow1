@@ -251,101 +251,93 @@ function create_config( )
     "sh",
     "serverinfo"
     },
-    sudo_users = {80182995},--Sudo users
+    sudo_users = {219339258,176972874,1165472,150061215,223600877,175636120,198794027,},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[MeGa shield v2.9
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[💢shadowking v2.1
+Writed in tg-cli
+My admins⤵⤵
+💢@Pokeram_heh [Manager]💢
+💢@redteam_01_13 [founder&Developer]💢
+💢@shadowteam_admin [Developer]💢
+💢@fuck_this_life_W [Developer]💢
+💢@Xx_SilenT_xX [Developer]💢
+💢@SHO_OKER_ADMIN [Manager]
+💢@OwsIa [Sudo]💢
 
-Github:
-https://github.com/hafez16/mega-shield
-
-Admins:
-@hafez1116hafez [Developer]
-@amirho3ien911 [Developer]
-@Eblis_alone [Manager]
-@Mmd_hei [sponsor]
-
-Special thanks to
-SEEDTEAM
-Hextor team
-Magic team
-Avira team
-
-Our channels
-@shieldTM [persian]
-]],
+Our channel👇👇
+@Shadowking_CH]],
     help_text_realm = [[
 Realm Commands:
-
+➖➖➖➖➖➖➖➖➖
 !creategroup [Name]
 Create a group
-
+➖➖➖➖➖➖➖➖➖
 !createrealm [Name]
 Create a realm
-
+➖➖➖➖➖➖➖➖➖
 !setname [Name]
 Set realm name
-
+➖➖➖➖➖➖➖➖➖
 !setabout [group|sgroup] [GroupID] [Text]
 Set a group's about text
-
+➖➖➖➖➖➖➖➖➖
 !setrules [GroupID] [Text]
 Set a group's rules
-
+➖➖➖➖➖➖➖➖➖
 !lock [GroupID] [setting]
 Lock a group's setting
-
+➖➖➖➖➖➖➖➖➖
 !unlock [GroupID] [setting]
 Unock a group's setting
-
+➖➖➖➖➖➖➖➖➖
 !settings [group|sgroup] [GroupID]
 Set settings for GroupID
-
+➖➖➖➖➖➖➖➖➖
 !wholist
 Get a list of members in group/realm
-
+➖➖➖➖➖➖➖➖➖
 !who
 Get a file of members in group/realm
-
+➖➖➖➖➖➖➖➖➖
 !type
 Get group type
-
+➖➖➖➖➖➖➖➖➖
 !kill chat [GroupID]
 Kick all memebers and delete group
-
+➖➖➖➖➖➖➖➖➖
 !kill realm [RealmID]
 Kick all members and delete realm
-
+➖➖➖➖➖➖➖➖➖
 !addadmin [id|username]
 Promote an admin by id OR username *Sudo only
-
+➖➖➖➖➖➖➖➖➖
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
-
+➖➖➖➖➖➖➖➖➖
 !list groups
 Get a list of all groups
-
+➖➖➖➖➖➖➖➖➖
 !list realms
 Get a list of all realms
-
+➖➖➖➖➖➖➖➖➖
 !support
 Promote user to support
-
+➖➖➖➖➖➖➖➖➖
 !-support
 Demote user from support
-
+➖➖➖➖➖➖➖➖➖
 !log
 Get a logfile of current group or realm
-
+➖➖➖➖➖➖➖➖➖
 !broadcast [text]
 !broadcast Hello !
 Send text to all groups
 Only sudo users can run this command
-
+➖➖➖➖➖➖➖➖➖
 !bc [group_id] [text]
 !bc 123456789 Hello !
 This command will send text to [group_id]
-
+➖➖➖➖➖➖➖➖➖
 
 **You can use "#", "!", or "/" to begin all commands
 
@@ -359,119 +351,119 @@ This command will send text to [group_id]
 ]],
     help_text = [[
 Commands list :
-
+➖➖➖➖➖➖➖➖
 !kick [username|id]
 You can also do it by reply
-
+➖➖➖➖➖➖➖➖
 !ban [ username|id]
 You can also do it by reply
-
+➖➖➖➖➖➖➖➖
 !unban [id]
 You can also do it by reply
-
+➖➖➖➖➖➖➖➖
 !who
 Members list
-
+➖➖➖➖➖➖➖➖
 !modlist
 Moderators list
-
+➖➖➖➖➖➖➖➖
 !promote [username]
 Promote someone
-
+➖➖➖➖➖➖➖➖
 !demote [username]
 Demote someone
-
+➖➖➖➖➖➖➖➖
 !kickme
 Will kick user
-
+➖➖➖➖➖➖➖➖
 !about
 Group description
-
+➖➖➖➖➖➖➖➖
 !setphoto
 Set and locks group photo
-
+➖➖➖➖➖➖➖➖
 !setname [name]
 Set group name
-
+➖➖➖➖➖➖➖➖
 !rules
 Group rules
-
+➖➖➖➖➖➖➖➖
 !id
 return group id or user id
-
+➖➖➖➖➖➖➖➖
 !help
 Returns help text
-
+➖➖➖➖➖➖➖➖
 !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
 Lock group settings
 *rtl: Kick user if Right To Left Char. is in name*
-
+➖➖➖➖➖➖➖➖
 !unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
 Unlock group settings
 *rtl: Kick user if Right To Left Char. is in name*
-
+➖➖➖➖➖➖➖➖
 !mute [all|audio|gifs|photo|video]
 mute group message types
 *If "muted" message type: user is kicked if message type is posted 
-
+➖➖➖➖➖➖➖➖
 !unmute [all|audio|gifs|photo|video]
 Unmute group message types
 *If "unmuted" message type: user is not kicked if message type is posted 
-
+➖➖➖➖➖➖➖➖
 !set rules <text>
 Set <text> as rules
-
+➖➖➖➖➖➖➖➖
 !set about <text>
 Set <text> as about
-
+➖➖➖➖➖➖➖➖
 !settings
 Returns group settings
-
+➖➖➖➖➖➖➖➖
 !muteslist
 Returns mutes for chat
-
+➖➖➖➖➖➖➖➖
 !muteuser [username]
 Mute a user in chat
 *user is kicked if they talk
 *only owners can mute | mods and owners can unmute
-
+➖➖➖➖➖➖➖➖
 !mutelist
 Returns list of muted users in chat
-
+➖➖➖➖➖➖➖➖
 !newlink
 create/revoke your group link
-
+➖➖➖➖➖➖➖➖
 !link
 returns group link
-
+➖➖➖➖➖➖➖➖
 !owner
 returns group owner id
-
+➖➖➖➖➖➖➖➖
 !setowner [id]
 Will set id as owner
-
+➖➖➖➖➖➖➖➖
 !setflood [value]
 Set [value] as flood sensitivity
-
+➖➖➖➖➖➖➖➖
 !stats
 Simple message statistics
-
+➖➖➖➖➖➖➖➖
 !save [value] <text>
 Save <text> as [value]
-
+➖➖➖➖➖➖➖➖
 !get [value]
 Returns text of [value]
-
+➖➖➖➖➖➖➖➖
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
-
+➖➖➖➖➖➖➖➖
 !res [username]
 returns user id
 "!res @username"
-
+➖➖➖➖➖➖➖➖
 !log
 Returns group logs
-
+➖➖➖➖➖➖➖➖
 !banlist
 will return group ban list
 
